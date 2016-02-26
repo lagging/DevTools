@@ -1,0 +1,101 @@
+<style type="text/css">
+
+
+body {
+	background-color: #CCC;
+	margin:80px 80px 100px 100px;
+}
+
+
+
+div#fixedheader {
+	position:fixed;
+	height:50px;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:currentColor;
+	padding:10px;
+}
+
+
+
+div#nav{
+	float: left;
+	margin: 20px;
+}
+
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:currentColor;
+	padding:8px;
+}
+
+fieldset {
+	width: 500px;
+}
+
+legend {
+	font-size: 20px;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+
+input.textbox-300{
+	width: 300px;
+	float: left;
+}
+
+fieldset p{
+	clear: both;
+	padding: 15px;
+}
+
+label span, .required {
+	color: red;
+	font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+div#form{
+	padding: 20px;
+	margin: 20px;
+}
+
+</style>
